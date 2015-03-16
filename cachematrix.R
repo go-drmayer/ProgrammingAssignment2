@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
     return(x)
   }
   setinv <- function(inv) { #sub-function to cache inverse matrix
-    m <<- mean
+    m <<- inv
   }
   getinv <- function() {    #sub-function to retrieve the cached inverse matrix
     return(m)
