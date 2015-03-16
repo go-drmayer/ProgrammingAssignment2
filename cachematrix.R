@@ -21,10 +21,10 @@ makeCacheMatrix <- function(x = matrix()) {
     return(m)
   }
   #create a list of the sub-functions
-  list(set = set, get = get, setinv = setinv, getinv = getinv)
+  mlist <- list(set = set, get = get, setinv = setinv, getinv = getinv)
   #return the list
   #I prefer to explicitly return function results.
-  return(list)
+  return(mlist)
 }
 
 
